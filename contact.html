@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
+</head>
+<body class="contact-body">
+    <nav class="nav nav2">
+        <div class="img">
+            <img src="./images/Careclub-logos_black.png" class="logo">
+        </div>
+        <ul class="about_nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="contact-us">
+        <div class="about">
+            <h2 class="about_title">Contact Us</h2>
+        </div>
+        <div id="contact">
+            <div>
+                <h2 class="ct">Get in touch.</h2>
+                <div class="container">
+                    <div class="both">
+                        <h2>Contact Form</h2>
+                        <p>Please fill all the fields of form</p>
+                    </div>
+                    <div class="form">
+                        <form action="">
+                            <label for="name">Your Name :</label>
+                            <input type="text" placeholder="Enter Your Full name" required>
+            
+                            <label for="email" class="space">Your Email :</label>
+                            <input type="email" placeholder="Enter Your Email" required>
+            
+                            <label for="Message">Message :</label>
+                            <textarea name="message" id="comment" cols="37" rows="10"
+                                placeholder="Your message to us" required></textarea>
+            
+                            <button class="btn-theme no-border" type="submit" onclick="thankyou()">Submit Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="add">
+                <div class="phone add">
+                    <img src="./images/phone.png" alt="phone">
+                    <h2>Phone</h2>
+                    <img src="./images/line-s1.png" alt="" class="dash">
+                    <p>1234567485</p>
+                </div>
+                <div class="mail add">
+                    <img src="./images/email.png" alt="email">
+                    <h2>Email</h2>
+                    <img src="./images/line-s1.png" alt="" class="dash">
+                    <p>abc@gmail.com</p>
+                </div>
+                <div class="location add">
+                    <img src="./images/location.png" alt="location">
+                    <h2>Address</h2>
+                    <img src="./images/line-s1.png" alt="" class="dash">
+                    <p>Delhi, India</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="contact-ftr">
+        <div>
+            Copyright &copy; 2022 Careclub NGO.org | All rights reserved!
+        </div>
+        <div>
+            <img src="./images/Careclub-logo_white.png" alt="" width="100px" height="98px">
+        </div>
+    </footer>
+
+    <script src="thankyou.js"></script>
+</body>
+</html>

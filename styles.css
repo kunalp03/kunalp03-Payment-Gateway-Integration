@@ -1,0 +1,308 @@
+#preloader{
+    background: black url(images/loader.gif) no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./images/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav .logo{
+    width: 122px;
+    height: 130px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    height: 100px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0px 10px 100px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #fca211;;
+}
+#box{
+    display: flex;
+    margin: 120px 250px;
+    margin-bottom: 0px;
+    width: 1000px;
+    height: 300px;
+}
+#box #content{
+    margin: 80px 111px;
+}
+#box #content h2{
+    margin: 12px;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+}
+.center{
+    text-align: center;
+}
+.orange{
+    color: #fca211;;
+}
+.white{
+    color: white;
+}
+.donate-now{
+    display: inline-flex;
+    margin-left: 50%;
+    margin-top: 111px;
+    top: 76px;
+}
+.donate-now:hover{
+    box-shadow: 0 0 4px #f38c21, 0 0 3px #f38c21, 0 0 8px #f38c21;
+}
+footer{
+    height: 140px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+}
+footer .home-ftr{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ftr-img{
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+/**************************************** About us **********************************/
+.nav2{
+    background-color: #F95738;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 10%);
+    border: 0 !important;
+    position: sticky;
+    top: 0;
+}
+.nav2 ul li a:hover{
+    color: white;
+}
+.about{
+    background-image:url(./images/about.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 35px 0;
+    z-index: 1;
+    margin-bottom: 65px;
+}
+.about_nav li a{
+    color: black;
+}
+.about_title{
+    font-size: 58px;
+    line-height: 1.414;
+    margin-bottom: 6px;
+    text-align: center;
+    color: white;
+    padding: 77px 0;
+}
+.about_img{
+    padding: 97px 120px;
+    float: left;
+}
+.moto {
+    font-size: 22px;
+    line-height: 1.364;
+    margin-bottom: 26px;
+    margin-right: 32px;
+}
+hr{
+    margin-bottom: 20px;
+}
+.mission-vission{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mission-vission img{
+    margin-left: 28px;
+}
+.mission-vission p{
+    font-size: 22px;
+    line-height: 1.364;
+    color: #fff;
+    padding-left: 28px;
+    padding-right: 32px;
+}
+.mission{
+    height: 421px;
+    width: 400px;
+    background-color: #F95738;
+}
+.vission{
+    width: 400px;
+    background-color: #FFB703;
+}
+.mv_tittle{
+    color: #fff;
+    font-size: 38px;
+    margin-bottom: 59px;
+    padding-left: 28px;
+    position: relative;
+    top: 37px;
+}
+.mv_tittle::before{
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    content: "";
+    height: 67.5px;
+    left: 21px;
+    position: absolute;
+    width: 70.5px;
+}
+.abt-ftr-img div{
+    text-align: center;
+}
+.abt-ftr-img{
+    margin-left: 50%;
+}
+/**************************************** Contact us *******************************************/
+.contact-body{
+    background-color: #f5afb9;
+}
+#contact{
+    display: flex;
+    justify-content: space-around;  
+}
+.ct{
+    font-size: 60px;
+    margin-bottom: 16px;
+    font-family: 'Yeseva One', cursive;
+}
+.container {
+    border: 2px solid red;
+}
+.both {
+    background: linear-gradient(-30deg, #fc6539 0%, #fea444 100%);
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
+.both h2 {
+    font-size: 45px;
+}
+.form {
+    margin: 13px 32px;
+}
+label {
+    font-size: 20px;
+}
+input {
+    width: 431px;
+    display: block;
+    margin-top: 9px;
+    font-size: 18px;
+    margin-bottom: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+}
+textarea {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-top: 9px;
+    background: transparent;
+}
+.btn-theme {
+    background: linear-gradient(to right, #FEA444 0%, #FC6539 100%);
+    margin-top: 39px;
+    cursor: pointer;
+    border-radius: 32.5px;
+    color: #fff;
+    line-height: 1.375;
+    min-width: 200px;
+    padding: 21px 37px;
+    transition: 0.3s; 
+    font-size: 20px;
+    margin-left: 100px;
+}
+.btn-theme:hover {
+    background: black;
+}
+#add{
+    margin-top: 83px;
+    width: 420px;
+    background: linear-gradient(-30deg, #fc6539 0%, #fea444 100%);
+    z-index: -1;
+}
+#add h2{
+    position: relative;
+    top: -58px;
+    left: 109px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+}
+#add .dash{
+    position: relative;
+    top: -48px;
+    left: 112px;
+}
+#add p{
+    color: white;
+    position: relative;
+    left: 104px;
+    top: -29px;
+    font-size: 23px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: -16px;
+}
+.add{
+    margin-left: 70px;
+    margin-top: 34px;
+}
+.phone{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 25px;
+}
+.mail{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 25px;
+}
+.no-border {
+    border: none !important;
+}
+.contact-ftr div{
+    text-align: center;
+}
+
