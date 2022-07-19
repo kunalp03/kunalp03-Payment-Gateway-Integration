@@ -6,7 +6,6 @@
     position: fixed;
     z-index: 100;
 }
-
 *{
     padding: 0;
     margin: 0;
@@ -75,10 +74,11 @@ nav ul li a:hover {
 .white{
     color: white;
 }
-.donate-now{
-    /* display: inline-flex; */
+.donate-container{
     display: flex;
     justify-content: center;
+}
+.donate-now{
     margin-top: 111px;
     top: 76px;
 }
